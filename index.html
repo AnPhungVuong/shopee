@@ -18,7 +18,11 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
-    <script src="https://kit.fontawesome.com/68c17c0f50.js" crossorigin="anonymous"></script>    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/68c17c0f50.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
   </head>
 
   <body>
@@ -27,19 +31,69 @@
         <div class="grid">
           <nav class="header__navbar">
             <ul class="header__navbar-list">
-                <li class="header__navbar-item header__navbar-item--separate">Go to shop</li>
-                <li class="header__navbar-item"><span class="header__navber-item--no-pointer">Connect</span><a href="" class="header__navbar-icon-link"><i class="header__navbar-icon fa-brands fa-facebook"></i> </a><a href="" class="header__navbar-icon-link"><i class="header__navbar-icon fa-brands fa-instagram"></i> </a></li>
+              <li class="header__navbar-item header__navbar-item--has-QR header__navbar-item--separate">
+                Go to shop
+
+                <!-- header QR CODE -->
+                <div class="header__qr">
+                  <img
+                    src="./assets/img/QR.png"
+                    alt="Qr code"
+                    class="header__qr-img"
+                  />
+                  <div class="header__app">
+                    <a href="" class="header__qr-link">
+                      <img
+                        src="./assets/img/gg_play.png"
+                        alt=""
+                        class="header__qr-download-img"
+                      />
+                    </a>
+
+                    <a href="" class="header__qr-link">
+                      <img
+                        src="./assets/img/app_store.png"
+                        alt=""
+                        class="header__qr-download-img"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="header__navbar-item">
+                <span class="header__navber-item--no-pointer">Connect</span
+                ><a href="" class="header__navbar-icon-link"
+                  ><i class="header__navbar-icon fa-brands fa-facebook"></i> </a
+                ><a href="" class="header__navbar-icon-link"
+                  ><i class="header__navbar-icon fa-brands fa-instagram"></i>
+                </a>
+              </li>
             </ul>
 
             <ul class="header__navbar-list">
-                <li class="header__navbar-item"><a href="" class="header__navbar-item-link"><i class="header__navbar-icon fa-solid fa-bell"></i>Notification</a></li>
-                <li class="header__navbar-item"><a href="" class="header__navbar-item-link"><i class="header__navbar-icon fa-solid fa-circle-info"></i>Help</a></li>
-                <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Register</li>
-                <li class="header__navbar-item header__navbar-item--strong">Log in</li>
+              <li class="header__navbar-item">
+                <a href="" class="header__navbar-item-link"
+                  ><i class="header__navbar-icon fa-solid fa-bell"></i
+                  >Notification</a
+                >
+              </li>
+              <li class="header__navbar-item">
+                <a href="" class="header__navbar-item-link"
+                  ><i class="header__navbar-icon fa-solid fa-circle-info"></i
+                  >Help</a
+                >
+              </li>
+              <li
+                class="header__navbar-item header__navbar-item--strong header__navbar-item--separate"
+              >
+                Register
+              </li>
+              <li class="header__navbar-item header__navbar-item--strong">
+                Log in
+              </li>
             </ul>
-        </nav>  
+          </nav>
         </div>
-        
       </header>
 
       <div class="container"></div>
