@@ -34,6 +34,7 @@ html{
     flex-wrap: wrap;
 }
 
+/* modal */
 .modal{
     position: fixed;
     top: 0;
@@ -54,9 +55,7 @@ html{
 }
 
 .modal__body{
-    background-color: white;
     z-index: 1;
-    border-radius: 5px;
 }
 
 
@@ -68,8 +67,20 @@ html{
     border:none;
     border-radius: 2px;
     font-size: 1.3rem;
-    padding: 0;
+    padding: 0 12px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn.btn--normal:hover{
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.btn.btn--size-s{
+    height: 32px;
+    font-size: 1rem;
+    padding: 0 8px;
 }
 
 .btn.btn--primary{
