@@ -1,6 +1,6 @@
 :root{
-
-    
+    --border-color: #dbdbdb;
+    --primary-color: #f53e2d;
     --white-color: #fff;
     --black-color: #000;
     --text-color: #333;
@@ -59,6 +59,22 @@ html{
     border-radius: 5px;
 }
 
+
+/* btn style */
+.btn{
+    min-width: 142px;
+    height: 36px;
+    text-decoration: none;
+    border:none;
+    border-radius: 2px;
+    font-size: 1.3rem;
+    padding: 0;
+}
+
+.btn.btn--primary{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
 
 /* animation */
 @keyframes fadeIn{
