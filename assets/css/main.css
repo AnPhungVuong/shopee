@@ -142,9 +142,18 @@
   right: 0;
   border: 1px solid #d3d3d3;
   cursor:default;
-  transform-origin: top right;
+  transform-origin: right top ;
   animation: headerNotifyGrowth ease-in 0.2s ;
   display: none;
+}
+
+.header__notify::before{
+  content: "";
+  border: 20px solid;
+  border-color: transparent transparent var(--white-color) transparent;
+  position: absolute;
+  right: 20px;
+  top: -29px;
 }
 
 .header__navbar-item--has-notify:hover .header__notify {
