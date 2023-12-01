@@ -89,6 +89,7 @@
   border-radius: 2px;
   display: none;
   animation: fadeIn 0.3s ease-in;
+  will-change: opacity;
 }
 
 .header__qr::before {
@@ -144,6 +145,7 @@
   cursor:default;
   transform-origin: right top ;
   animation: headerNotifyGrowth ease-in 0.2s ;
+  will-change: opacity, transform;
   display: none;
 }
 
