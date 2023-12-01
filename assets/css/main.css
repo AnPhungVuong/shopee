@@ -275,4 +275,8 @@
   outline: none;
 }
 
-
+.auth-form__resgister-btn{
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
