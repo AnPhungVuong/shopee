@@ -12,6 +12,7 @@
   list-style: none;
   padding-left: 0;
   margin-top: 4px 0 0 0;
+  display: flex;
 }
 
 .header__navbar-item {
@@ -76,6 +77,63 @@
 .header__navber-item--no-pointer {
   cursor: text;
   color: var(--white-color);
+}
+
+/* LOG IN BLOCK */
+.header__navbar-user {
+  position: relative;
+}
+
+.header__navbar-user-name {
+  margin-left: 8px;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+.header__navbar-user-img {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+}
+
+.header__navbar-user-menu {
+  position: absolute;
+  list-style: none;
+  padding-left: 0;
+  right: 0;
+  background-color: var(--white-color);
+  top: 100%;
+  border-radius: 2px;
+  width: 160px;
+  z-index: 1;
+  box-shadow: 0 1px 2px #ccc;
+  display: none;
+}
+
+.header__navbar-user:hover .header__navbar-user-menu{
+  display: block;
+}
+
+.header__navbar-user-menu::before {
+  content: "";
+  border: 20px solid;
+  border-color: transparent transparent var(--white-color) transparent;
+  position: absolute;
+  right: 20px;
+  top: -26px;
+}
+.header__navbar-user-item {
+}
+.header__navbar-user-item a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 1.4rem;
+  padding: 4px 16px;
+  display: block;
+}
+
+.header__navbar-user-item a:hover {
+  background-color: #fafafa;
 }
 
 /* header QR CODE */
@@ -537,7 +595,7 @@
   border-radius: 3px;
   box-shadow: 0 1px 3.125rem rgba(0, 0, 0, 0.2);
   background-color: var(--white-color);
-  /* display: none; */
+  display: none;
   animation: fadeIn ease-in 0.2s;
   cursor: default;
 }
@@ -606,8 +664,8 @@
   align-items: center;
 }
 
-.header__cart-item:hover{
-  background-color: #F8F8F8;
+.header__cart-item:hover {
+  background-color: #f8f8f8;
 }
 
 .header__cart-list-item {
@@ -625,7 +683,6 @@
 .header__cart-item-info {
   width: 100%;
   margin-right: 12px;
-
 }
 .header__cart-item-head {
   display: flex;
@@ -668,12 +725,12 @@
   font-weight: 400;
 }
 
-.header__cart-item-remove:hover{
+.header__cart-item-remove:hover {
   color: var(--primary-color);
   cursor: pointer;
 }
 
-.header__cart-view-cart{
+.header__cart-view-cart {
   float: right;
   margin: 0 12px 12px 0;
 }
