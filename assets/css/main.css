@@ -84,7 +84,6 @@
   position: relative;
 }
 
-
 .header__navbar-user-name {
   margin-left: 4px;
   font-weight: 400;
@@ -111,11 +110,11 @@
   display: none;
 }
 
-.header__navbar-user-item--separate{
+.header__navbar-user-item--separate {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.header__navbar-user:hover .header__navbar-user-menu{
+.header__navbar-user:hover .header__navbar-user-menu {
   display: block;
 }
 
@@ -394,7 +393,7 @@
 .header__logo {
   width: 200px;
 }
-.eader__logo-link{
+.eader__logo-link {
   color: transparent;
   text-decoration: none;
 }
