@@ -37,10 +37,18 @@ html {
 .grid__row {
   display: flex;
   flex-wrap: wrap;
+  margin: 0 -12px;
 }
 
-.grid_col
+.grid__col_2{
+  padding: 0 12px;
+  width: 16,6667%;
+}
 
+.grid__col_10{
+  padding: 0 12px;
+  width: 83.3334%;
+}
 /* modal */
 .modal {
   position: fixed;

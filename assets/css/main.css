@@ -743,3 +743,31 @@
   float: right;
   margin: 0 12px 12px 0;
 }
+
+/* side bar */
+.category{
+  background-color: #34a853;
+  /* width: calc(8.3% *2); */
+  
+}
+
+.category-heading{
+
+
+}
+.category-list{
+padding-left: 0;
+list-style: none;
+
+}
+.category-item{
+
+
+}
+.category-item-link{
+text-decoration: none;
+
+}
+
+
+
