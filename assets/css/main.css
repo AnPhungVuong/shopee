@@ -830,10 +830,56 @@
   min-width: 90px;
 }
 
-.select-input{
-  
-}
 .home-filter__page{
   display: flex;
   align-items: center;
+  margin-left: auto;
+}
+
+.home-filter__page-num{
+  font-size: 1.4rem;
+  color: var(--text-color);
+  margin-right: 22px;
+
+}
+
+.home-filter__page-current{
+  color: var(--primary-color);
+
+}
+
+.home-filter__page-btn{  
+  flex:1;
+  background-color: var(--white-color);
+  display: flex;
+  text-decoration: none;
+  
+}
+
+.home-filter__page-btn:first-child{
+  border-right: #eee 1px solid;
+}
+
+.home-filter__page-btn--disable{
+  background-color: #f9f9f9 ;
+  cursor: default;
+}
+
+.home-filter__page-btn--disable .home-filter__page-icon{
+  color: #ccc;
+
+}
+
+.home-filter__page-control{
+  border-radius: 2px;
+  overflow: hidden;
+  display: flex;
+  width: 72px;
+  height: 36px;
+}
+
+.home-filter__page-icon{
+  margin:auto;
+  font-size: 1.4rem;
+  color: #555;
 }
