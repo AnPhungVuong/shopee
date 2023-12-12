@@ -38,7 +38,7 @@ html {
   display: flex;
   flex-wrap: wrap;
   margin: 0 -12px;
-  
+
 }
 
 .grid__col_2{
@@ -111,6 +111,27 @@ html {
   cursor: default;
   color: #949494;
   background-color: #c3c3c3;
+}
+
+
+/* Selection */
+.select-input{
+  padding: 0 12px;
+  border-radius: 2px;
+  background-color: var(--white-color);
+  min-width: 120px;
+  display: flex;
+  justify-content: space-between;
+  height: 36px;
+  align-items: center;
+}
+
+.select-input__label{
+  font-size: 1.4rem;
+}
+
+.select-input__icon{
+  
 }
 
 /* animation */

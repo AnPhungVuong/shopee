@@ -809,3 +809,31 @@
 .category-item-link:hover {
   right: -4px;
 }
+
+
+/* Home filter - sorting */
+.home-filter{
+  background-color: rgba(0, 0, 0, 0.04);
+  display: flex;
+  align-items: center;
+  padding: 12px 22px;
+  border-radius: 2px;
+}
+.home-filter__label{
+  color: #555555;
+  font-size: 1.4rem;
+  margin-right: 26px;
+}
+
+.home-filter__btn{
+  margin-right: 12px;
+  min-width: 90px;
+}
+
+.select-input{
+  
+}
+.home-filter__page{
+  display: flex;
+  align-items: center;
+}
