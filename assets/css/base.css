@@ -37,21 +37,21 @@ html {
 .grid__row {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -12px;
+  margin: 0 -5px;
 }
 
 .grid__col_2 {
-  padding: 0 12px;
+  padding: 0 5px;
   width: 16.6667%;
 }
 
 .grid__col_2-4{
-  padding: 0 12px;
+  padding: 0 5px;
   width: 20%;
 }
 
 .grid__col_10 {
-  padding: 0 12px;
+  padding: 0 5px;
   width: 83.3334%;
 }
 /* modal */
